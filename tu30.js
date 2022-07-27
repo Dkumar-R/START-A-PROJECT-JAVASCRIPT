@@ -1,0 +1,1 @@
+console.log("This is tu 30.js was runing....")
