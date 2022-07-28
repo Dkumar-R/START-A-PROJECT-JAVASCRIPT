@@ -6,5 +6,7 @@
 - Here is a simple flow chart:
 
 ```START-A-PROJECT-JAVASCRIPT;
-    START-A-PROJECT-JAVASCRIPT-->tu30.js-->gettersandsetters.js-->tu30E1.js;
+    START-A-PROJECT-JAVASCRIPT-->tu30.js;
+    tu30.js-->gettersandsetters.js;
+    gettersandsetters.js-->tu30E1.js;
 ```
