@@ -9,7 +9,8 @@ Here is a simple flow chart:
 graph TD;
     A-->B;
     A-->C;
-    A-->D;
+    A-->D
+    D-->A;
     B-->D;
     C-->D;
 
