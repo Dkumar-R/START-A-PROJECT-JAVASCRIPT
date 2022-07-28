@@ -2,16 +2,9 @@
 ----------------------------------------------------
 ### 1 tu30.js
 ### 2 gettersandsetters.js
-- tu30E1.js
-Here is a simple flow chart:
+### 3 tu30E1.js
+- Here is a simple flow chart:
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    A-->D
-    D-->A;
-    B-->D;
-    C-->D;
-
+```START-A-PROJECT-JAVASCRIPT;
+    START-A-PROJECT-JAVASCRIPT-->tu30.js-->gettersandsetters.js-->tu30E1.js;
 ```
