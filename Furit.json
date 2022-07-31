@@ -1,0 +1,19 @@
+ [
+      {
+        "name" : "Apple",
+        "price" : 35
+      },
+      {
+        "name" : "Banana",
+        "price" : 12
+      },
+      {
+        "name" : "Grapes",
+        "weight": 0.1,
+        "price" : 45
+      },
+      {
+        "name" : "Pineapple",
+        "price" : 200
+      }
+    ]
