@@ -31,17 +31,16 @@ function PopBtnClick() {
     const xhr = new XMLHttpRequest();
 
     // xhr.open('GET', 'https://jsonplaceholder.typicode.com/posts/1', false)
-    xhr.open('GET', 'https://jsonplaceholder.typicode.com/users/', false)
+    let xcv = "https://jsonplaceholder.typicode.com/users/"
+    xhr.open('GET', xcv, false)
     // xhr.open('GET', 'Furit.json', false)
-
-
-
-
 
     xhr.onload = function () {
         if (this.status === 200) {
             let obj = JSON.parse(this.responseText)
             console.log(obj);
+            localStorage.setItem('obj', JSON.stringify(obj));
+            console.log(localStorage.getItem(obj));
             let list = document.getElementById('list1');
             str = "";
             for (key in obj) {
